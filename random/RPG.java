@@ -50,7 +50,8 @@ public class RPG {
 			} else if (playerAttack == 2 && monsterAttack == 2 || playerAttack == 2 && monsterAttack == 1) {
 				System.out.println("Seu ataque pesado surgiu efeito no monstro!");
 				monsterHp = monsterHp - 40;
-			} else if ()
+				playerUlt++;
+			} 
 		}
 
 	}

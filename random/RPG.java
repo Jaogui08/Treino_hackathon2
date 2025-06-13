@@ -44,8 +44,12 @@ public class RPG {
 			
 			if (playerAttack == 1 && monsterAttack == 3 || playerAttack == 2 && monsterAttack == 3) {
 				System.out.println("Seu ataque foi defendido pelo monstro!");
-			} else if (monsterAttack == 1 && playerAttack == 3 || monsterAttack == 2 && playerAttack == 3) {
-				System.out.println("Você defendeu o ataque do monstro!");
+			} else if (playerAttack == 1 && monsterAttack == 2 || playerAttack == 1 && monsterAttack == 1) {
+				System.out.println("Seu ataque surgiu efeito no monstro!");
+				monsterHp = monsterHp - 25;
+			} else if (playerAttack == 2 && monsterAttack == 2 || playerAttack == 2 && monsterAttack == 1) {
+				System.out.println("Seu ataque pesado surgiu efeito no monstro!");
+				monsterHp = monsterHp - 40;
 			} else if ()
 		}
 
